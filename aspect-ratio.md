@@ -110,9 +110,9 @@ Case 1: 0.4804
 ```cpp
 void solve()
 {
-    float k;
+    double k;
     cin >> k;
-    float r = sqrt((k * k - 1) / (4 - k * k));
-    cout << "Case " << ++cs << ": " << setprecision(4) << r << endl;
+    double r = sqrtl((k * k - 1) / (4 - k * k));
+    cout << "Case " << ++cs << ": " << fixed << setprecision(4) << r << endl;
 }
 ```
