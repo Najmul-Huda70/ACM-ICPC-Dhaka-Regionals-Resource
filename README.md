@@ -26,6 +26,13 @@
 
 ---
 
+### 👾 Bit Mask 
+- [Creating Triangles](https://lightoj.com/problem/creating-triangles)  
+- Problem B  
+- Problem C  
+
+---
+
 ### 🔣 Number Theory  
 - Problem A  
 - Problem B  
