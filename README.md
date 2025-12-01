@@ -27,7 +27,7 @@
 ---
 
 ### 👾 Bit Mask 
-- [Creating Triangles]([https://lightoj.com/problem/creating-triangles](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/Creating%20Triangles.md))  
+- [Creating Triangles](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/Creating%20Triangles.md)  
 - Problem B  
 - Problem C  
 
