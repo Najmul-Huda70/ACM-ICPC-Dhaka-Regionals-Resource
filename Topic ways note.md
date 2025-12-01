@@ -19,7 +19,9 @@ Modular exponentiation: (𝑎^𝑏)%𝑚
 Cryptography (RSA)
 
 Recurrence relations in algorithms (like Fibonacci)
+
 # 2. Matrix Exponential Growth in Algorithms
+
 Used to compute sequences or recurrences efficiently. Instead of computing each term sequentially, we can represent the recurrence as a matrix multiplication and raise the matrix to a power.
 
 Example: Fibonacci sequence   F(n)=F(n−1)+F(n−2)
@@ -58,11 +60,12 @@ Dynamic programming optimization
 Graph walks counting (paths of length n)
 
 # 3. Modular Arithmetic Function
-Concept
 
 Modular arithmetic is key in competitive programming and cryptography. Operations are done modulo a number 
 𝑚, (a+b)mod m.
+
 <img width="850" height="246" alt="image" src="https://github.com/user-attachments/assets/36c4debb-bd84-4389-bd48-7d1e25cd95d4" />
+
 ```cpp
 long long modAdd(long long a, long long b, long long m) {
     return (a + b) % m;
@@ -83,7 +86,9 @@ long long modPow(long long a, long long b, long long m) {
     return res;
 }
 ```
+
 <img width="874" height="472" alt="image" src="https://github.com/user-attachments/assets/970b1656-df2b-4ac9-a9ac-17f4f816a1b5" />
+
 ```cpp
 long long modPow(long long a, long long b, long long p) {
     long long res = 1;
