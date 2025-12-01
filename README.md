@@ -33,9 +33,11 @@
 
 <details>
 <summary><h4>- 🔢 Math</h4></summary>
-- D.Aspect Ratio  
+  
+- [D.Aspect Ratio](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/aspect-ratio.md)  
 - Problem B  
 - Problem C
+  
 </details>
 
 </details>
