@@ -106,3 +106,13 @@ This matches:
 
 Case 1: 0.4804
 ```
+# Solution
+```cpp
+void solve()
+{
+    float k;
+    cin >> k;
+    float r = sqrt((k * k - 1) / (4 - k * k));
+    cout << "Case " << ++cs << ": " << setprecision(4) << r << endl;
+}
+```
