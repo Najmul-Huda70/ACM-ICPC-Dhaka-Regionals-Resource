@@ -1,3 +1,5 @@
+# [Algorithms for Competitive Programming](https://cp-algorithms.com/index.html) 
+
 <details>
   <summary><h3>📘 ACM ICPC Dhaka Regionals — Resources</h3></summary>
 
