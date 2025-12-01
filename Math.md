@@ -1,3 +1,8 @@
-# Problem 
-- [D.Aspect Ratio](https://lightoj.com/problem/aspect-ratio) (ICPC Asia Dhaka Regional 2022)
+# Problem
+<details>
+  <summary>
+    D.Aspect Ratio
+  </summary>
+  D.Aspect Ratio
+</details>
 
