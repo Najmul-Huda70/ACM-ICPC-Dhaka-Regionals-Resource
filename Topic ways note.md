@@ -25,6 +25,7 @@ Recurrence relations in algorithms (like Fibonacci)
 <summary><h2>Problem</h2></summary>
 
 - [Exponentiation](https://cses.fi/problemset/task/1095/)
+- [Exponentiation II](https://cses.fi/problemset/task/1712)
 
 
 </details>
