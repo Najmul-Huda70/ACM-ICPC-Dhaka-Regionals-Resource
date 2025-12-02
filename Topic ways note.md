@@ -103,6 +103,34 @@ long long modPow(long long a, long long b, long long m) {
     return res;
 }
 ```
+<img width="733" height="187" alt="image" src="https://github.com/user-attachments/assets/b2771c17-76cf-4414-98c8-012e593489cb" />
+```cpp
+const int mod = 1e9 + 7;
+int modPow(int a, int b, int mod)
+{
+    int res = 1;
+    a %= mod;
+    while (b > 0)
+    {
+        if (b & 1)
+            res = (1LL * res * a) % mod;
+        a = (1LL * a * a) % mod;
+        b >>= 1;
+    }
+    return res;
+}
+
+void solve()
+{
+    int a, b, c;
+    cin >> a >> b >> c;
+    // at first find b^c % (mod-1);
+    int bPOWc = modPow(b, c, mod - 1);
+    // find a^(b^c) % mod ;
+    int ans = modPow(a, bPOWc, mod);
+    cout << ans << endl;
+}
+```
 
 <img width="874" height="472" alt="image" src="https://github.com/user-attachments/assets/970b1656-df2b-4ac9-a9ac-17f4f816a1b5" />
 
