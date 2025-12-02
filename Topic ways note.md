@@ -1,6 +1,7 @@
-# 1. Binary Exponential Growth in Algorithms
-
-Also called: Binary exponentiation or Fast exponentiation
+<details>
+    <summary><h1>Binary Exponential Growth in Algorithms</h1></summary>
+    Also called: Binary exponentiation or Fast exponentiation
+    
 ```cpp
 long long binpow(long long a, long long b) {
     long long res = 1;
@@ -19,9 +20,17 @@ Modular exponentiation: (𝑎^𝑏)%𝑚
 Cryptography (RSA)
 
 Recurrence relations in algorithms (like Fibonacci)
+<details>
+    
+<summary><h2>Problem</h2></summary>
 
-# 2. Matrix Exponential Growth in Algorithms
+- [Exponentiation](https://cses.fi/problemset/task/1095/)
 
+
+</details>
+</details>
+<details>
+    <summary><h1>Matrix Exponential Growth in Algorithms</h1></summary>
 Used to compute sequences or recurrences efficiently. Instead of computing each term sequentially, we can represent the recurrence as a matrix multiplication and raise the matrix to a power.
 
 Example: Fibonacci sequence   F(n)=F(n−1)+F(n−2)
@@ -59,8 +68,16 @@ Dynamic programming optimization
 
 Graph walks counting (paths of length n)
 
-# 3. Modular Arithmetic Function
+ <details>
+    <summary><h2>Problem</h2></summary>
+     
+- [Problem - A](#)
 
+</details>
+</details>
+<details>
+    <summary><h1>Modular Arithmetic Function</h1></summary>
+    
 Modular arithmetic is key in competitive programming and cryptography. Operations are done modulo a number 
 𝑚, (a+b)mod m.
 
@@ -114,7 +131,19 @@ int main() {
 }
 ```
 <img width="764" height="492" alt="Screenshot 2025-12-01 222545" src="https://github.com/user-attachments/assets/afb248bc-26e3-47ff-990e-023fe246ab05" />
-<img width="893" height="391" alt="image" src="https://github.com/user-attachments/assets/76254e15-ea60-45a4-aac5-50b20b027ab5" />
+
+<details>
+<summary><h2>Problem</h2></summary>
+
+- [Problem - A](#)
+
+
+</details>
+
+</details>
+<details>
+    <summary><h1>Euler's Totient Function</h1></summary>
+    <img width="893" height="391" alt="image" src="https://github.com/user-attachments/assets/76254e15-ea60-45a4-aac5-50b20b027ab5" />
 
 ```cpp
 long long eulerTotient(long long n) {
@@ -130,6 +159,13 @@ long long eulerTotient(long long n) {
 }
 ```
 <img width="847" height="149" alt="image" src="https://github.com/user-attachments/assets/39cc5ebe-8697-4322-82a6-934a4bf00c43" />
+<details>
+    <summary><h2>Problem</h2></summary>
+
+- Problem
+</details>
+</details>
+
 
 | Concept               | Complexity                             | Purpose / Use Case                       |
 | --------------------- | -------------------------------------- | ---------------------------------------- |
@@ -138,3 +174,15 @@ long long eulerTotient(long long n) {
 | Modular arithmetic    | O(1) for add/sub/mul, O(log n) for pow | Keep numbers within bounds, cryptography |
 | Euler totient         | O(√n)                                  | Count coprimes, compute modular inverses |
 
+<details>
+    <summary><h1>Description</h1></summary>
+    <details>
+    
+<summary><h2>Problem</h2></summary>
+
+- [Problem - A](#)
+
+
+</details>
+
+</details>
