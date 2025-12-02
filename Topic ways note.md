@@ -83,6 +83,7 @@ Modular arithmetic is key in competitive programming and cryptography. Operation
 
 <img width="850" height="246" alt="image" src="https://github.com/user-attachments/assets/36c4debb-bd84-4389-bd48-7d1e25cd95d4" />
 
+
 ```cpp
 long long modAdd(long long a, long long b, long long m) {
     return (a + b) % m;
@@ -103,7 +104,9 @@ long long modPow(long long a, long long b, long long m) {
     return res;
 }
 ```
+# Tower of Power mod Problem : 
 <img width="733" height="187" alt="image" src="https://github.com/user-attachments/assets/b2771c17-76cf-4414-98c8-012e593489cb" />
+
 ```cpp
 const int mod = 1e9 + 7;
 int modPow(int a, int b, int mod)
