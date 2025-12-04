@@ -207,9 +207,214 @@ long long eulerTotient(long long n) {
 | Euler totient         | O(√n)                                  | Count coprimes, compute modular inverses |
 
 <details>
-    <summary><h1>Description</h1></summary>
-    <details>
+    <summary><h1>1.0 Basic Number Theory</h1></summary>
+
+# ⭐ Which numbers have an odd number of divisors?
+
+A number has an odd number of divisors if and only if it is a perfect square.
+
+Check if a number has odd divisors:
+```cpp
+bool hasOddDivisors(long long x) {
+    long long r = sqrtl(x);
+    return r*r == x;  // true if x is a perfect square
+}
+```
+
+# [Number of divisors / sum of divisors](https://cp-algorithms.com/algebra/divisors.html#toc-tgt-1)
+## Count The Number of Divisors N 
+
+N = p^e1 .p^e2.p^e3 .p^e4.p^e5 ......p^ek
+
+d(n) =(e1+1).(e2+1).(e3+1).(e4+1).(e5+1).(e6+1)....(ek+1)
+
+```cpp
+long long numberOfDivisors(long long num)
+{
+    long long total = 1;
+    for (int i = 2; (long long)i * i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            int e = 0;
+            while (num % i == 0)
+            {
+                e++;
+                num /= i;
+            }
+            total *= e + 1;
+        }
+    }
+    if (num > 1)
+    {
+        total *= 2;
+    }
+    return total;
+}
+```
+## Sum of The Number of Divisors N
+
+<img width="846" height="146" alt="image" src="https://github.com/user-attachments/assets/5f588249-e26f-4489-89f3-ee17a4e26d0c" />
+
+```cpp
+long long SumOfDivisors(long long num)
+{
+    long long total = 1;
+
+    for (int i = 2; (long long)i * i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            int e = 0;
+            do
+            {
+                e++;
+                num /= i;
+            } while (num % i == 0);
+
+            int cntSameDivisors = e + 1;
+
+            long long sum = 0, pow = 1;
+            
+            while (cntSameDivisors--)
+            {
+                sum += pow;
+                pow *= i;
+            }
+            total *= sum;
+        }
+    }
+    if (num > 1)
+    {
+        total *= (1 + num);
+    }
+    return total;
+}
+```
+# Sieve of Eratosthenes (Sieve)
+The Sieve of Eratosthenes is an efficient algorithm to find all prime numbers up to a given number n.
+```cpp
+vector<bool> prime(N+1, true);
+
+void sieve(int N) {
+    prime[0] = prime[1] = false;
+    for(int i = 2; i * i <= N; i++) {
+        if(prime[i]) {
+            for(int j = i * i; j <= N; j += i) {
+                prime[j] = false;
+            }
+        }
+    }
+}
+```
+🔥 Time Complexity: O(NloglogN)
+🔥 Space Complexity: O(N)
+# Divisors Count Sieve (1 to N)
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+const int N = 1e7 + 9;
+int divisorsCnt[N];
+
+void divisorSieve()
+{
+    for (int i = 1; i < N; i++)
+    {
+        for (int j = i; j < N; j += i)
+        {
+            divisorsCnt[j]++;
+        }
+    }
+}
+
+int main()
+{
+    divisorSieve(); // You MUST call this
+
+    cout << divisorsCnt[100] << endl; // Expected output: 9
+    return 0;
+}
+
+```
+Works smoothly up to N = 10⁷ in C++
+
+Time Complexity: O(N log N)
+
+Space: O(N)
+
+# Smallest Prime Factor (SPF) Sieve
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+
+const int N = 1e7 + 9;
+int spf[N];
+
+void buildSPF()
+{
+    for (int i = 1; i < N; i++)
+        spf[i] = i;
+
+    for (int i = 2; i*I < N; i++)
+    {
+        if (spf[i] == i)
+        { // i is prime
+            for (int j = i*i; j < N; j += i)
+            {
+                if (spf[j] == j) // update only once
+                    spf[j] = i;
+            }
+        }
+    }
+}
+
+vector<pair<int, int>> primeFactorization(int n)
+{
+    vector<pair<int, int>> ans;
+    while (n > 1)
+    {
+        int x = spf[n];
+        int e = 0;
+        while (n % x == 0)
+        {
+            e++;
+            n /= x;
+        }
+        ans.push_back({x, e});
+    }
+    return ans;
+}
+
+int main()
+{
+    buildSPF();
+    int n;
+    cin >> n;
+
+    auto factorize = primeFactorization(n);
+    for (auto [p, e] : factorize)
+        cout << p << "^" << e << " ";
+    cout << endl;
+}
+```
+Time complexity: O(N log N)
+Factorization of each number: O(log N)
+Very fast for 1e7 or 1e6 constraints.
+<details>
     
+<summary><h2>Problem</h2></summary>
+
+- [Problem - A](#)
+
+
+</details>
+
+</details>
+
+<details>
+    <summary><h1>Description</h1></summary>
+ <details>
 <summary><h2>Problem</h2></summary>
 
 - [Problem - A](#)
