@@ -37,7 +37,7 @@
 ---
 
 ### 🔣 Number Theory  
-- Problem A  
+- [Make GCD Great Again!](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/Make%20GCD%20Great%20Again!.md)
 - Problem B  
 - Problem C  
 
