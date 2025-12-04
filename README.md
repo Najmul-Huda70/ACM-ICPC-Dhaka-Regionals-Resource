@@ -10,7 +10,12 @@
 - 📂 [ICPC Preparation Problems](#)
 
 </details>
+<details>
+  <summary><h3>Contest</h3></summary>
 
+- [Educational Codeforces Round 183 (Rated for Div. 2)](https://codeforces.com/contest/2145)
+
+</details>
 
 <details>
   <summary><h3>📂 Categories</h3></summary>
