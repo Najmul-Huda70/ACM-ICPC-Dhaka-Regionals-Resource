@@ -191,13 +191,8 @@ long long eulerTotient(long long n) {
 }
 ```
 <img width="847" height="149" alt="image" src="https://github.com/user-attachments/assets/39cc5ebe-8697-4322-82a6-934a4bf00c43" />
-<details>
-    <summary><h2>Problem</h2></summary>
 
-- Problem
-</details>
-</details>
-
+Time Compexity: 
 
 | Concept               | Complexity                             | Purpose / Use Case                       |
 | --------------------- | -------------------------------------- | ---------------------------------------- |
@@ -205,6 +200,12 @@ long long eulerTotient(long long n) {
 | Matrix exponentiation | O(k³ log n)                            | Linear recurrences, DP optimization      |
 | Modular arithmetic    | O(1) for add/sub/mul, O(log n) for pow | Keep numbers within bounds, cryptography |
 | Euler totient         | O(√n)                                  | Count coprimes, compute modular inverses |
+<details>
+    <summary><h2>Problem</h2></summary>
+
+- Problem
+</details>
+</details>
 
 <details>
     <summary><h1>1.0 Basic Number Theory</h1></summary>
@@ -420,6 +421,7 @@ n = p₁^a₁ × p₂^a₂ × … × pk^ak
 Then:
 
 <img width="750" height="89" alt="image" src="https://github.com/user-attachments/assets/38dc2248-64d8-4115-82c5-d5ca03551da9" />
+
 Code: 
 
 ```cpp
