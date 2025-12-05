@@ -445,7 +445,7 @@ void computeTotient() {
     
 <summary><h2>Problem</h2></summary>
 
-- [Problem - A](#)
+- [Vjudge Contest](https://vjudge.net/contest/772456)
 
 
 </details>
