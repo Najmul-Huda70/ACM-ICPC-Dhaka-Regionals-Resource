@@ -401,6 +401,44 @@ int main()
 Time complexity: O(N log N)
 Factorization of each number: O(log N)
 Very fast for 1e7 or 1e6 constraints.
+
+# Eler's Totient Function
+
+φ(n) = number of integers from 1 to n that are coprime to n
+(i.e., gcd(x, n) = 1)
+
+<img width="1289" height="309" alt="image" src="https://github.com/user-attachments/assets/db8bb9d7-cae6-4bcf-9131-ff68b3ab0ad2" />
+<img width="1289" height="711" alt="image" src="https://github.com/user-attachments/assets/8bbf9d1c-68aa-4df3-9eae-7cfa4eb3294d" />
+<img width="1292" height="670" alt="image" src="https://github.com/user-attachments/assets/5c0370dc-8d1a-437c-9a8b-2eec0f46bd9a" />
+
+### 🧠 Key Formula
+
+If
+n = p₁^a₁ × p₂^a₂ × … × pk^ak
+(prime factorization)
+
+Then:
+
+<img width="750" height="89" alt="image" src="https://github.com/user-attachments/assets/38dc2248-64d8-4115-82c5-d5ca03551da9" />
+Code: 
+
+```cpp
+vector<int> phi(N+1);
+
+void computeTotient() {
+    for (int i = 1; i <= N; i++) phi[i] = i;
+
+    for (int i = 2; i <= N; i++) {
+        if (phi[i] == i) {   
+            // i is prime
+            for (int j = i; j <= N; j += i) {
+                phi[j] -= phi[j] / i;
+            }
+        }
+    }
+}
+```
+
 <details>
     
 <summary><h2>Problem</h2></summary>
