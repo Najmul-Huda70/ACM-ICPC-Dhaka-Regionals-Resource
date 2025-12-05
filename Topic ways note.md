@@ -440,7 +440,37 @@ void computeTotient() {
     }
 }
 ```
+### ✅ Why those loops exist - sqrtl(n)
 
+sqrtl(n) returns a floating-point number, which may have precision errors, especially for very large numbers (up to 10¹²).
+
+Example:
+
+n = 49
+sqrtl(n) = 6.999999999999999  (floating error)
+
+
+Then:
+
+p = 6
+p*p = 36  < 49
+
+
+So to fix rounding errors:
+
+If p² < n, increase p
+
+If p² > n, decrease p
+
+This ensures p becomes the exact integer square root.
+code:
+ ```cpp
+ ll p = sqrtl(n);
+    while (1LL * p * p < n)
+        ++p;
+    while (1LL * p * p > n)
+        --p;
+```
 <details>
     
 <summary><h2>Problem</h2></summary>
