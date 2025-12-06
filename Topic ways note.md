@@ -258,25 +258,21 @@ long long numberOfDivisors(long long num)
 <img width="846" height="146" alt="image" src="https://github.com/user-attachments/assets/5f588249-e26f-4489-89f3-ee17a4e26d0c" />
 
 ```cpp
-long long SumOfDivisors(long long num)
+long long sumDivisors(ll n)
 {
     long long total = 1;
-
-    for (int i = 2; (long long)i * i <= num; i++)
+    for (long long i = 2; i * i <= n; i++)
     {
-        if (num % i == 0)
+        if (n % i == 0)
         {
             int e = 0;
-            do
+            while (n % i == 0)
             {
                 e++;
-                num /= i;
-            } while (num % i == 0);
-
+                n /= i;
+            }
             int cntSameDivisors = e + 1;
-
             long long sum = 0, pow = 1;
-            
             while (cntSameDivisors--)
             {
                 sum += pow;
@@ -285,9 +281,9 @@ long long SumOfDivisors(long long num)
             total *= sum;
         }
     }
-    if (num > 1)
+    if (n > 1)
     {
-        total *= (1 + num);
+        total *= (1 + n);
     }
     return total;
 }
