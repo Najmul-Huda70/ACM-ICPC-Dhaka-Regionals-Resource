@@ -288,6 +288,82 @@ long long sumDivisors(ll n)
     return total;
 }
 ```
+# The product of factors of n
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+long long binPow(long long a, long long b)
+{
+    long long res = 1;
+    while (b > 0)
+    {
+        if (b & 1)
+            res *= a;
+        a *= a;
+        b >>= 1;
+    }
+    return res;
+}
+long long productOfDivisors(long long num)
+{
+    long long n = num;
+    long long total = 1;
+    for (int i = 2; (long long)i * i <= num; i++)
+    {
+        if (num % i == 0)
+        {
+            int e = 0;
+            while (num % i == 0)
+            {
+                e++;
+                num /= i;
+            }
+            total *= e + 1;
+        }
+    }
+    if (num > 1)
+    {
+        total *= 2;
+    }
+    return binPow(n, total / 2);
+}
+
+int main()
+{
+    long long n;
+    cin >> n;
+    cout << productOfDivisors(n) << endl;
+}
+```
+# Check Perfect Number
+A number n is perfect if:
+    n=σ(n)−n
+Where σ(n) = sum of all divisors of n.
+Or:
+𝑛=1+(all other divisors except n)
+
+🧠 Mathematical Formula (Even Perfect Numbers)
+
+All even perfect numbers have the form:
+<img width="540" height="73" alt="image" src="https://github.com/user-attachments/assets/d18929e4-f5bf-47b1-b998-9705eb4e9fa8" />
+
+
+```cpp
+bool isPerfect(long long n) {
+    long long sum = 1;
+
+    for (long long i = 2; i * i <= n; i++) {
+        if (n % i == 0) {
+            sum += i;
+            if (i != n / i)
+                sum += n / i;
+        }
+    }
+
+    return (n > 1 && sum == n);
+}
+```
+
 # Sieve of Eratosthenes (Sieve)
 The Sieve of Eratosthenes is an efficient algorithm to find all prime numbers up to a given number n.
 ```cpp
