@@ -1,4 +1,117 @@
-# ICPC and IUPC Problems Topic wise-2025
+<details>
+  <summary><h1>ICPC and IUPC Problems University Wise - 2025 </h1></summary>
+
+  ## CUET Inter University Programming Contest December 13, 2025
+
+| Problem                  | Expected Difficulty | Tags                      |
+| ------------------------ | ------------------- | ------------------------- |
+| I. Peak Reduction        | Div2A               | Adhoc                     |
+| C. Pattern Purifier      | Div2B               | Adhoc, Strings, DS        |
+| A. Kill Two Birds...     | Div2B               | Adhoc, Graphs             |
+| D. The AND, The OR...    | Div2C               | Bits, Greedy              |
+| F. Survival of the Fated | Div2C               | Expected Value            |
+| J. The Power of the Sun  | Div2D               | Data Structures           |
+| H. Prime Triangles       | Div2D               | Constructive, NT, Geo     |
+| E. A Slice of Pi         | Div2D               | Geometry, Two Pointers    |
+| B. K Floors Down         | Div2E               | Math, DP, Combinatorics   |
+| G. Pascal’s Tree         | Div2E               | Trees, DS                 |
+| K. The Great Withering   | Div2E               | DP, Graphs, Combinatorics |
+
+## ICPC Dhaka Regional Online Preliminary 2025
+
+| Problem                                      | Expected Difficulty | Tags                                  |
+| -------------------------------------------- | ------------------- | ------------------------------------- |
+| A. Delete, Deduct, and Destroy               | Preliminary         | Data Structures, Math                 |
+| B. Your Next Line Is, “What A Cool Problem!” | Preliminary         | Adhoc                                 |
+| C. Least Compatible Ancestor                 | Preliminary         | Trees, Dynamic Programming, Bitmasks  |
+| D. Magical Flower Garden                     | Preliminary         | Range Query, Bitmasks, Implementation |
+| F. Over Counting                             | Preliminary         | Combinatorics                         |
+| G. The Matrix                                | Preliminary         | Bitmasks, Constructive                |
+| H. Chemical Reaction                         | Preliminary         | Graphs                                |
+
+
+## Uttara University Inter-University Programming Contest  June 20-21, 2025
+
+| Problem                    | Expected Difficulty | Tags                                              |
+| -------------------------- | ------------------- | ------------------------------------------------- |
+| F. Divisible Perfection    | Div2A               | Adhoc                                             |
+| C. Binomial XOR            | Div2B               | Bits, Basic Combinatorics                         |
+| A. Edgy Graph              | Div2C               | Graphs, Constructive                              |
+| J. Sublime Replacement     | Div2C               | Adhoc, DP                                         |
+| I. Statue on a Permutation | Div2C               | Adhoc, Games, Constructive                        |
+| B. Red Dead Redemption 2   | Div2D               | Graphs, DFS, Number Theory                        |
+| G. MEX-imum Beauty         | Div2D               | Data Structures, DP                               |
+| E. The Perfect Spider Web  | Div2D               | Geometry, Ternary Search, Half Plane Intersection |
+| H. Substring Symphony      | Div2E               | Suffix Array, Data Structures, Binary Search      |
+| K. Math Madness            | Div2E               | Number Theory, Inclusion Exclusion                |
+| D. Symmetric Swap          | Div1D               | Hashing, NTT                                      |
+
+## Betopia Group Presents DUET Inter University Programming Contest May 9-10, 2025
+| Problem | Div   | Tags                         |
+| ------- | ----- | ---------------------------- |
+| H       | Div2A | Adhoc                        |
+| D       | Div2A | Strings, Adhoc               |
+| F       | Div2B | Constructive                 |
+| B       | Div2C | Trees, Greedy                |
+| I       | Div2C | Bits, Pigeonhole, Bitmasks   |
+| J       | Div2D | Number Theory, Combinatorics |
+| C       | Div2D | Geometry, Convex Hull        |
+| G       | Div2E | Trees, Combinatorics, Math   |
+| A       | Div2E | DP                           |
+| E       | Div2E | Graphs, Flows                |
+
+## MTB Presents AUST Inter University Programming Contest Feb 21-22, 2025
+
+| Problem | Div   | Tags                                      |
+| ------- | ----- | ----------------------------------------- |
+| E       | Div3A | Giveaway                                  |
+| I       | Div2A | Adhoc                                     |
+| B       | Div2B | Constructive                              |
+| K       | Div2C | Adhoc, DP on Trees                        |
+| F       | Div2C | Geometry                                  |
+| G       | Div2D | Number Theory, Inclusion-Exclusion        |
+| H       | Div2D | DP, BFS, Data Structures                  |
+| C       | Div2D | DP, Strings                               |
+| D       | Div2E | Trees, DSU, Segment Tree                  |
+| A       | Div2E | Adhoc, Combinatorics                      |
+| J       | Div2E | Counting, Data Structures, Implementation |
+
+## UIU Inter-University Programming Contest 2025
+
+| Problem | Div/Category                                                              | 
+| ------- | ------------------------------------------------------------------------- | 
+| A       | Math, Combinatorics                                                       | 
+| B       | Math                                                                      | 
+| C       | Adhoc, Greedy                                                             | 
+| D       | Adhoc, STL, Math                                                          | 
+| E       | DP, Tree, Binary Search                                                   | 
+| F       | Hashing, Divide and Conquer, Heavy-Light Trick, Square Root Decomposition | 
+| G       | Data Structures                                                           | 
+| H       | Probability, Number Theory                                                |
+| I       | Adhoc                                                                     | 
+| J       | Game Theory, Implementation                                               | 
+| K       | Combinatorics, Contribution Technique, Prüfer Sequence                    | 
+
+## Miaki Presents Inter University Programming Contest, BitFest 2025
+
+| Problem                  | Category                                |
+| ------------------------ | --------------------------------------- |
+| A. Perpendicular Parking | Constructive, Math                      |
+| B. Baskets and Stones    | Combinatorics, Expected Value           |
+| C. Effective Rendering   | Geometry, Observation                   |
+| D. Dysbinaria            | Data Structure, BBST, Bit-Manipulations |
+| E. Escape Plan           | Bitmask DP                              |
+| F. Funny Fairy Tale      | FFT                                     |
+| G. The Scientist         | Graph, Shortest Path                    |
+| H. Ticket Dilemma        | Ad hoc                                  |
+| I. Travel on the Grid II | Dynamic Programming                     |
+| J. Earthquake            | Greedy, DSU, MST                        |
+| K. The Beast             | Binary Search                           |
+
+</details>
+
+<details>
+  <summary><h1>ICPC and IUPC Problems Topic wise-2025</h1></summary>
 
 ## 1. Adhoc
 
@@ -292,109 +405,4 @@ ICPC Dhaka
 
 D. Magical Flower Garden
 
-## CUET Inter University Programming Contest December 13, 2025
-
-| Problem                  | Expected Difficulty | Tags                      |
-| ------------------------ | ------------------- | ------------------------- |
-| I. Peak Reduction        | Div2A               | Adhoc                     |
-| C. Pattern Purifier      | Div2B               | Adhoc, Strings, DS        |
-| A. Kill Two Birds...     | Div2B               | Adhoc, Graphs             |
-| D. The AND, The OR...    | Div2C               | Bits, Greedy              |
-| F. Survival of the Fated | Div2C               | Expected Value            |
-| J. The Power of the Sun  | Div2D               | Data Structures           |
-| H. Prime Triangles       | Div2D               | Constructive, NT, Geo     |
-| E. A Slice of Pi         | Div2D               | Geometry, Two Pointers    |
-| B. K Floors Down         | Div2E               | Math, DP, Combinatorics   |
-| G. Pascal’s Tree         | Div2E               | Trees, DS                 |
-| K. The Great Withering   | Div2E               | DP, Graphs, Combinatorics |
-
-## ICPC Dhaka Regional Online Preliminary 2025
-
-| Problem                                      | Expected Difficulty | Tags                                  |
-| -------------------------------------------- | ------------------- | ------------------------------------- |
-| A. Delete, Deduct, and Destroy               | Preliminary         | Data Structures, Math                 |
-| B. Your Next Line Is, “What A Cool Problem!” | Preliminary         | Adhoc                                 |
-| C. Least Compatible Ancestor                 | Preliminary         | Trees, Dynamic Programming, Bitmasks  |
-| D. Magical Flower Garden                     | Preliminary         | Range Query, Bitmasks, Implementation |
-| F. Over Counting                             | Preliminary         | Combinatorics                         |
-| G. The Matrix                                | Preliminary         | Bitmasks, Constructive                |
-| H. Chemical Reaction                         | Preliminary         | Graphs                                |
-
-
-## Uttara University Inter-University Programming Contest  June 20-21, 2025
-
-| Problem                    | Expected Difficulty | Tags                                              |
-| -------------------------- | ------------------- | ------------------------------------------------- |
-| F. Divisible Perfection    | Div2A               | Adhoc                                             |
-| C. Binomial XOR            | Div2B               | Bits, Basic Combinatorics                         |
-| A. Edgy Graph              | Div2C               | Graphs, Constructive                              |
-| J. Sublime Replacement     | Div2C               | Adhoc, DP                                         |
-| I. Statue on a Permutation | Div2C               | Adhoc, Games, Constructive                        |
-| B. Red Dead Redemption 2   | Div2D               | Graphs, DFS, Number Theory                        |
-| G. MEX-imum Beauty         | Div2D               | Data Structures, DP                               |
-| E. The Perfect Spider Web  | Div2D               | Geometry, Ternary Search, Half Plane Intersection |
-| H. Substring Symphony      | Div2E               | Suffix Array, Data Structures, Binary Search      |
-| K. Math Madness            | Div2E               | Number Theory, Inclusion Exclusion                |
-| D. Symmetric Swap          | Div1D               | Hashing, NTT                                      |
-
-## Betopia Group Presents DUET Inter University Programming Contest May 9-10, 2025
-| Problem | Div   | Tags                         |
-| ------- | ----- | ---------------------------- |
-| H       | Div2A | Adhoc                        |
-| D       | Div2A | Strings, Adhoc               |
-| F       | Div2B | Constructive                 |
-| B       | Div2C | Trees, Greedy                |
-| I       | Div2C | Bits, Pigeonhole, Bitmasks   |
-| J       | Div2D | Number Theory, Combinatorics |
-| C       | Div2D | Geometry, Convex Hull        |
-| G       | Div2E | Trees, Combinatorics, Math   |
-| A       | Div2E | DP                           |
-| E       | Div2E | Graphs, Flows                |
-
-## MTB Presents AUST Inter University Programming Contest Feb 21-22, 2025
-
-| Problem | Div   | Tags                                      |
-| ------- | ----- | ----------------------------------------- |
-| E       | Div3A | Giveaway                                  |
-| I       | Div2A | Adhoc                                     |
-| B       | Div2B | Constructive                              |
-| K       | Div2C | Adhoc, DP on Trees                        |
-| F       | Div2C | Geometry                                  |
-| G       | Div2D | Number Theory, Inclusion-Exclusion        |
-| H       | Div2D | DP, BFS, Data Structures                  |
-| C       | Div2D | DP, Strings                               |
-| D       | Div2E | Trees, DSU, Segment Tree                  |
-| A       | Div2E | Adhoc, Combinatorics                      |
-| J       | Div2E | Counting, Data Structures, Implementation |
-
-## UIU Inter-University Programming Contest 2025
-
-| Problem | Div/Category                                                              | 
-| ------- | ------------------------------------------------------------------------- | 
-| A       | Math, Combinatorics                                                       | 
-| B       | Math                                                                      | 
-| C       | Adhoc, Greedy                                                             | 
-| D       | Adhoc, STL, Math                                                          | 
-| E       | DP, Tree, Binary Search                                                   | 
-| F       | Hashing, Divide and Conquer, Heavy-Light Trick, Square Root Decomposition | 
-| G       | Data Structures                                                           | 
-| H       | Probability, Number Theory                                                |
-| I       | Adhoc                                                                     | 
-| J       | Game Theory, Implementation                                               | 
-| K       | Combinatorics, Contribution Technique, Prüfer Sequence                    | 
-
-## Miaki Presents Inter University Programming Contest, BitFest 2025
-
-| Problem                  | Category                                |
-| ------------------------ | --------------------------------------- |
-| A. Perpendicular Parking | Constructive, Math                      |
-| B. Baskets and Stones    | Combinatorics, Expected Value           |
-| C. Effective Rendering   | Geometry, Observation                   |
-| D. Dysbinaria            | Data Structure, BBST, Bit-Manipulations |
-| E. Escape Plan           | Bitmask DP                              |
-| F. Funny Fairy Tale      | FFT                                     |
-| G. The Scientist         | Graph, Shortest Path                    |
-| H. Ticket Dilemma        | Ad hoc                                  |
-| I. Travel on the Grid II | Dynamic Programming                     |
-| J. Earthquake            | Greedy, DSU, MST                        |
-| K. The Beast             | Binary Search                           |
+</details>
