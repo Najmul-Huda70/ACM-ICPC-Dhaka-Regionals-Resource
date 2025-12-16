@@ -6,9 +6,9 @@
 | Problem                  | Expected Difficulty | Tags                      |
 | ------------------------ | ------------------- | ------------------------- |
 | I. Peak Reduction        | Div2A               | Adhoc                     |
-| C. Pattern Purifier      | Div2B               | Adhoc, Strings, DS        |
+| C. Pattern Purifier      | Div2B               | Adhoc, Strings, DS,(Stack)|
 | A. Kill Two Birds...     | Div2B               | Adhoc, Graphs             |
-| D. The AND, The OR...    | Div2C               | Bits, Greedy              |
+| D. The AND, The OR...    | Div2C               | Bits, Greedy(details)     |
 | F. Survival of the Fated | Div2C               | Expected Value            |
 | J. The Power of the Sun  | Div2D               | Data Structures           |
 | H. Prime Triangles       | Div2D               | Constructive, NT, Geo     |
