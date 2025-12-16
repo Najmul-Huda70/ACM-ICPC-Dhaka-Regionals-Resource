@@ -2,7 +2,13 @@
 # CSES - [CSES Problem Set - Tasks](https://cses.fi/problemset/)
 # [Problem solution github resourse](https://github.com/Hasanul-Bari/contests)
 # [Note](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/Topic%20ways%20note.md)
-# ICPC AND IUPC Problem analysis
+
+<details>
+  <summary><h1>ICPC AND IUPC Problem analysis</h1></summary>
+
+  - [2025](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/ICPC%20and%20IUPC%20Problems%20Topic%20wise-2025.md)
+</details>
+
 <details>
   <summary><h3>📘 ACM ICPC Dhaka Regionals — Resources</h3></summary>
 
