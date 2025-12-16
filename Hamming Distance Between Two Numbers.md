@@ -48,11 +48,11 @@ x ⊕ y = 110
 4️⃣ popcount – counting set bits
 
 In C++:
-
+```cpp
 __builtin_popcount(x);        // int
 
 __builtin_popcountll(x);      // long long
-
+```
 
 Example:
 ```cpp
