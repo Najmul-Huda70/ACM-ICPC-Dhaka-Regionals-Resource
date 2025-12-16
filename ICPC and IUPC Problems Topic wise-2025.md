@@ -14,7 +14,7 @@
 | H. Prime Triangles       | Div2D               | Constructive, NT, Geo     |
 | E. A Slice of Pi         | Div2D               | Geometry, Two Pointers    |
 | B. K Floors Down         | Div2E               | Math, DP, Combinatorics   |
-| G. Pascal’s Tree         | Div2E               | Trees, DS                 |
+| G. Pascal’s Tree         | Div2E               | Trees, DS,([LCA](https://cp-algorithms.com/graph/lca.html))           |
 | K. The Great Withering   | Div2E               | DP, Graphs, Combinatorics |
 
 ## ICPC Dhaka Regional Online Preliminary 2025
