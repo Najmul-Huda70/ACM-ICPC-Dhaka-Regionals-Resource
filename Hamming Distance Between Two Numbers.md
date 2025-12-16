@@ -30,6 +30,7 @@ Let’s see XOR truth table:
 
 
 👉 XOR gives 1 only when bits are different
+
 So XOR marks exactly the differing bit positions
 
 3️⃣ Example (Basic)
