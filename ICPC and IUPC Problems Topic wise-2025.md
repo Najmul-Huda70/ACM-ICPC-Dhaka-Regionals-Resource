@@ -109,9 +109,113 @@
 | K. The Beast             | Binary Search                           |
 
 </details>
+<details>
+  <summary><h1>ICPC and IUPC Problems University Wise - 2024 </h1></summary>
+  
+  ## ICPC Asia Dhaka Regional 2024 (Online Preliminary)
+  
+ | Problem                                                     | Category                                                      |
+| ----------------------------------------------------------- | ------------------------------------------------------------- |
+| Problem A: Adhoc King                                       | Bit Manipulation, Math, Constructive                          |
+| Problem B: Network Disentanglement                          | Graph Theory, Bipartite Graph, Maximum Matching, Vertex Cover |
+| Problem C: Watering the Flowerbeds                          | Greedy, Observation                                           |
+| Problem D: Red Apple, Green Apple                           | Probability, Math, Expected Value                             |
+| Problem E: Master Evenius and Oddius                        | Game Theory, DP, Math                                         |
+| Problem F: Three Quick Brown Foxes Jump Over a Lazy Chicken | Geometry, Math                                                |
+| Problem G: Travel on the Grid                               | Graph, Dijkstra, State Space Search                           |
+| Problem H: GonaGuni2                                        | DP, State Compression, Matrix Exponentiation                  |
+
+
+</details>
 
 <details>
-  <summary><h1>ICPC and IUPC Problems Topic wise-2025</h1></summary>
+  <summary><h1>ICPC and IUPC Problems University Wise - 2023 </h1></summary>
+  
+  ## ICPC ASIA DHAKA REGIONAL CONTEST 2023
+  | Problem                                   | Category                                  |
+| ----------------------------------------- | ----------------------------------------- |
+| Problem A: Gona Guni                      | DP, Polynomials                           |
+| Problem B: ASCII Table                    | Observation, Modulo Arithmetic            |
+| Problem C: Bears                          | LIS, Divisors, Optimization               |
+| Problem D: Pyramid                        | Math, Ternary Search                      |
+| Problem E: Crazy General                  | DP, Stirling Numbers, Group Theory        |
+| Problem F: Uncle Bob and XOR Sum          | Math, Gauss–Jordan Elimination, XOR Basis |
+| Problem G: Pess Chuzzle                   | Constructive Algorithm                    |
+| Problem H: Island Invasion                | Constructive Algorithm, Observation       |
+| Problem J: Point Table                    | Observation                               |
+| Problem K: Strategies in Sequential Games | DP, Data Structures                       |
+
+## ICPC ASIA DHAKA REGIONAL PRELIMINARY CONTEST 2023
+
+| **Problem**                                 | **Category (Inferred)**                                             |
+| ------------------------------------------- | ------------------------------------------------------------------- |
+| **Problem A: Almost Perfect Prime Factor!** | Two-Pointers, Prime Factorization, GCD, Sliding Window              |
+| **Problem B: Bob and Numbers**              | Pattern Observation, Math / Sequence Summation                      |
+| **Problem C: Counting Ones II**             | Two-Pointers, Prefix Sums, Grid Query Processing                    |
+| **Problem D: Sequence**                     | Dynamic Programming, String Matching (KMP), DP with Prefix Function |
+| **Problem E: Sub-Array**                    | Combinatorics, Counting Subarrays                                   |
+| **Problem F: Mesmerizing Fireflies**        | Geometry, Convex Hull, Ternary Search                               |
+
+</details>
+<details>
+  <summary><h1>ICPC and IUPC Problems University Wise - 2022 </h1></summary>
+  
+  ## ICPC Asia Dhaka Regional 2022
+  
+| Problem                           | Category                                        |
+| --------------------------------- | ----------------------------------------------- |
+| **Problem A: Tree Flip**          | Tree, Centroid Decomposition, Segment Tree, XOR |
+| **Problem B: Binary Sort**        | Dynamic Programming, Bit Manipulation           |
+| **Problem C: Network**            | Dynamic Programming, Combinatorics              |
+| **Problem D: Aspect Ratio**       | Math, Geometry                                  |
+| **Problem E: Overtake**           | Simulation, Geometry, Math                      |
+| **Problem F: 2x2 Flip**           | Math, Combinatorics, FFT, Generating Functions  |
+| **Problem G: Jump if you can**    | Graph, Dijkstra, Binary Search                  |
+| **Problem H: Product Manager**    | Math, Observation                               |
+| **Problem I: Creating Triangles** | Recursion, Divide & Conquer                     |
+| **Problem J: Sort it**            | DP, Bitmasking, Combinatorics                   |
+
+ ## ICPC Asia Dhaka Regional 2022 (Online Preliminary)
+ 
+| Problem                                       | Category                                |
+| --------------------------------------------- | --------------------------------------- |
+| **Problem A: A Game with Grandma**            | Game Theory, DP                         |
+| **Problem B: Transform the Array**            | Number Theory, Prime Divisors           |
+| **Problem C: Omago Virus**                    | Combinatorics, DP                       |
+| **Problem D: Omicron Juice 2023**             | Adhoc                                   |
+| **Problem E: Cyclic Palindrome**              | FFT, Combinatorics                      |
+| **Problem F: Proximity Card Data Statistics** | Implementation                          |
+| **Problem G: Portals and Roads**              | DP                                      |
+| **Problem H: Mr. Dumb the Police in Charge**  | Data Structures, Centroid Decomposition |
+| **Problem I: Image Cropping**                 | Binary Search, Geometry                 |
+| **Problem J: Product Quality Analyst**        | Observation                             |
+
+
+</details>
+
+<details>
+  <summary><h1>ICPC and IUPC Problems University Wise - 2021 </h1></summary>
+ 
+## ICPC Asia Dhaka Regional 2021 (Online Preliminary)
+
+ | Problem                                | Category                                                |
+| -------------------------------------- | ------------------------------------------------------- |
+| **Problem A: Beautiful Blocks Again!** | Constructive Algorithm, Ad hoc                          |
+| **Problem B: Black Bishop**            | Constructive Algorithm, Greedy, Data Structures, Ad hoc |
+| **Problem C: Codovid Virus**           | Counting, Implementation                                |
+| **Problem D: Der Stern**               | Geometry, Ternary Search                                |
+| **Problem E: Calendars**               | Ad hoc, Implementation                                  |
+| **Problem F: Flip**                    | Number Theory, Ad hoc                                   |
+| **Problem G: Make GCD Great Again!**   | Number Theory                                           |
+| **Problem H: Vishon Xor**              | Data Structures, Greedy                                 |
+| **Problem I: Keep Calm, Keep Padding** | Greedy, Trees                                           |
+| **Problem J: ICPC Standing**           | Ad hoc, Giveaway                                        |
+| **Problem K: Clash of Coprimes**       | Math, Constructive Algorithm, Ad hoc                    |
+
+</details>
+
+<details>
+  <summary><h1>ICPC and IUPC Problems Topic wise </h1></summary>
 
 ## 1. Adhoc
 
