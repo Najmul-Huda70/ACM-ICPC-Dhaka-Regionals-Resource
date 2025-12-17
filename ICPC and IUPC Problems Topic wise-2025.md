@@ -1,4 +1,78 @@
 <details>
+  <summary><h1>Topic / Tag  Count (Problem Occurrences) </h1></summary>
+
+| Topic / Tag                          | Count (Problem Occurrences) |
+| ------------------------------------ | --------------------------- |
+| Ad hoc                               | 20                          |
+| Math                                 | 15                          |
+| Dynamic Programming (DP)             | 12                          |
+| Combinatorics                        | 11                          |
+| Data Structures                      | 10                          |
+| Geometry                             | 9                           |
+| Graphs                               | 7                           |
+| Number Theory                        | 7                           |
+| Greedy                               | 6                           |
+| Constructive Algorithm               | 5                           |
+| Implementation                       | 5                           |
+| Observation                          | 5                           |
+| Counting                             | 4                           |
+| Bit Manipulation                     | 3                           |
+| Bitmasks                             | 3                           |
+| Game Theory                          | 3                           |
+| Strings                              | 3                           |
+| Ternary Search                       | 3                           |
+| Binary Search                        | 2                           |
+| Centroid Decomposition               | 2                           |
+| Convex Hull                          | 2                           |
+| DFS                                  | 2                           |
+| Dijkstra                             | 2                           |
+| Divide and Conquer                   | 2                           |
+| DP on Trees                          | 2                           |
+| Expected Value                       | 2                           |
+| FFT (Fast Fourier Transform)         | 2                           |
+| Graph Theory                         | 2                           |
+| Hashing                              | 2                           |
+| Inclusion–Exclusion                  | 2                           |
+| Polynomials                          | 2                           |
+| Probability                          | 2                           |
+| Segment Tree                         | 2                           |
+| Stack                                | 2                           |
+| State Space Search                   | 2                           |
+| Two Pointers                         | 2                           |
+| Algorithm Design                     | 1                           |
+| ASCII / Character Processing         | 1                           |
+| BBST (Balanced Binary Search Tree)   | 1                           |
+| BFS                                  | 1                           |
+| Bitmask DP                           | 1                           |
+| Contribution Technique               | 1                           |
+| Flows                                | 1                           |
+| Gauss–Jordan Elimination             | 1                           |
+| Heavy-Light Decomposition            | 1                           |
+| LIS (Longest Increasing Subsequence) | 1                           |
+| LCA (Lowest Common Ancestor)         | 1                           |
+| Matrix Exponentiation                | 1                           |
+| Maximum Matching                     | 1                           |
+| MST (Minimum Spanning Tree)          | 1                           |
+| NTT (Number Theoretic Transform)     | 1                           |
+| Optimization                         | 1                           |
+| Pattern Observation                  | 1                           |
+| Pigeonhole Principle                 | 1                           |
+| Prefix Sums                          | 1                           |
+| Prüfer Sequence                      | 1                           |
+| Range Query                          | 1                           |
+| Recursion                            | 1                           |
+| Simulation                           | 1                           |
+| Sliding Window                       | 1                           |
+| Square Root Decomposition            | 1                           |
+| State Compression                    | 1                           |
+| STL                                  | 1                           |
+| Suffix Array                         | 1                           |
+| Vertex Cover                         | 1                           |
+| XOR Basis                            | 1                           |
+
+
+</details>
+<details>
   <summary><h1>ICPC and IUPC Problems University Wise - 2025 </h1></summary>
 
   ## CUET Inter University Programming Contest December 13, 2025
