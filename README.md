@@ -6,7 +6,7 @@
 <details>
   <summary><h1>ICPC AND IUPC Problem analysis</h1></summary>
 
-  - [2025](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/ICPC%20and%20IUPC%20Problems%20Topic%20wise-2025.md)
+  - [ICPC-2021,2022,2023,2024,2025 & ALL IUPC-2025](https://github.com/Najmul-Huda70/ACM-ICPC-Dhaka-Regionals-Resource/blob/main/ICPC%20and%20IUPC%20Problems%20Topic%20wise-2025.md)
 </details>
 
 <details>
